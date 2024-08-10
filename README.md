@@ -1,6 +1,6 @@
 # emu-electronic-datalogger
 
-Unofficial parser for Emu Electronic AG datalogger
+Unofficial parser for Emu Electronic AG datalogger. Tested using a Water sensor manufactured by APA (v21).
 
 *Disclaimer: This is an educational code made for testing purposes. Use at your own risk.*
 
@@ -8,13 +8,13 @@ Unofficial parser for Emu Electronic AG datalogger
 
 ### How to obtain the input data
 
-1. Enter the IP of your emu datalogger and log in
+1. Access your emu datalogger via the website
 2. Go to "System Integration"
 3. Select your "From" and "To" date
 4. Select "Water meter": `Medium`
 5. Select "Export-Type": `json`
 6. Select "Filter": `per month`
-7. Export
+7. CLick Export
 
 The export operation takes some time. For example, for 10 flats, 6 months it takes around 10 minutes.
 
@@ -35,7 +35,7 @@ to do some adaptations.
 
 ## Example
 
-This is what the output file `./out/FILENAME.csv` will look like once the code is executed, this a brief summary for flats 5A to 5G.
+This is what the output file `./out/FILENAME.csv` will look like once the code is executed, this is a summary for flats 5A to 5G.
 
 ```csv
 Hoja de consumos de agua caliente por piso - HEADER
